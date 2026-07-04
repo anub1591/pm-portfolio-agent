@@ -1,6 +1,6 @@
 # PM Portfolio Agent
 
-An AI assistant that lets non-technical business stakeholders — PMs, directors, execs — ask plain-English questions about a project portfolio and get real, data-backed answers. No SQL, no dashboard training required.
+An AI assistant that lets non-technical business stakeholders such as PMs, directors, executives, etc. ask plain english questions about a project portfolio and get real, data-backed answers. No dashboard training or SQL required.
 
 Built with the Anthropic API (Claude, tool use) and Streamlit.
 
@@ -8,13 +8,13 @@ Built with the Anthropic API (Claude, tool use) and Streamlit.
 > "Who's overallocated next month?"
 > "Which at-risk projects also have an overallocated team member?"
 
-The agent reasons over the underlying data, decides which lookups it needs, chains them if the question requires it, and returns a clear, business-readable answer — along with a transparent trace of exactly what it checked.
+The agent reasons over the underlying data, decides which lookups it needs, chains them if the question requires it, and returns a clear, business-readable answer along with a transparent trace of exactly what it checked.
 
 ---
 
 ## Why this project exists
 
-Most portfolio dashboards show data. Business users still have to interpret it themselves — cross-referencing a risk report against a resource allocation sheet to answer a question like "is our most at-risk project also short-staffed?"
+Most portfolio dashboards show data. Business users still have to interpret it themselves, cross-referencing a risk report against a resource allocation sheet to answer a question like "is our most at-risk project also short-staffed?"
 
 This project flips that: the AI does the cross-referencing, and gives you the answer in plain language, with the underlying data available if you want to verify it.
 
@@ -25,10 +25,10 @@ It's a companion piece to my [smart meter anomaly detection agent](https://githu
 ## What it does
 
 - **Risk detection** — flags projects that are at-risk or delayed, with the specific reason (budget overrun, declining sprint velocity, blocked stories)
-- **Capacity checks** — identifies team members who are overallocated across projects in a given month
+- **Capacity checks** — identifies team members who are over-allocated across projects in a given month
 - **Budget variance** — planned vs. actual spend, by project
 - **Project lookups** — full status pull for any project, by name or ID
-- **Multi-step reasoning** — combines the above when a question needs it (e.g. "which at-risk projects also have an overallocated person on them")
+- **Multi-step reasoning** — combines the above when a question needs it (e.g. "which at-risk projects also have an over-allocated person on them")
 - **Transparent reasoning trace** — every answer includes an expandable section showing exactly which tools were called and what data came back
 
 ---
