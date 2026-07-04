@@ -1,0 +1,29 @@
+person_name,project_id,role,allocation_pct,month
+Sarah Chen,P01,Tech Lead,60,2026-07
+Sarah Chen,P07,Tech Lead,50,2026-07
+Sarah Chen,P01,Tech Lead,60,2026-08
+Sarah Chen,P07,Tech Lead,40,2026-08
+Miguel Torres,P02,Data Engineer,100,2026-07
+Miguel Torres,P02,Data Engineer,100,2026-08
+Priya Nair,P05,Data Scientist,70,2026-07
+Priya Nair,P07,Data Scientist,30,2026-07
+Priya Nair,P10,Data Scientist,40,2026-07
+Priya Nair,P05,Data Scientist,80,2026-08
+Priya Nair,P10,Data Scientist,50,2026-08
+James Okafor,P03,BA,80,2026-07
+James Okafor,P08,BA,20,2026-07
+James Okafor,P03,BA,70,2026-08
+James Okafor,P08,BA,30,2026-08
+Lena Fischer,P04,Data Engineer,90,2026-07
+Lena Fischer,P09,Data Engineer,10,2026-07
+Lena Fischer,P04,Data Engineer,100,2026-08
+Anthony Reyes,P06,PM,50,2026-07
+Anthony Reyes,P09,PM,50,2026-07
+Anthony Reyes,P06,PM,40,2026-08
+Anthony Reyes,P09,PM,40,2026-08
+Deepa Menon,P10,QA Lead,60,2026-07
+Deepa Menon,P08,QA Lead,60,2026-07
+Deepa Menon,P10,QA Lead,80,2026-08
+Deepa Menon,P08,QA Lead,30,2026-08
+Ravi Kapoor,P01,Backend Dev,100,2026-07
+Ravi Kapoor,P01,Backend Dev,100,2026-08

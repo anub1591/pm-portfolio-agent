@@ -1,0 +1,11 @@
+project_id,project_name,status,start_date,end_date,percent_complete,budget_planned,budget_actual,sprint_velocity_1,sprint_velocity_2,sprint_velocity_3,blocked_stories,risk_notes
+P01,Customer Portal Revamp,At Risk,2026-03-01,2026-08-15,55,180000,214000,38,31,22,6,Budget overrun 19%; velocity dropped 42% over 3 sprints
+P02,Billing System Migration,On Track,2026-04-01,2026-09-30,40,250000,231000,45,47,46,1,"Stable velocity, under budget"
+P03,Mobile App Redesign,Delayed,2026-02-15,2026-06-30,62,120000,133000,29,24,18,9,Missed 2 milestones; high blocked-story count
+P04,Data Warehouse Upgrade,On Track,2026-05-01,2026-10-15,25,300000,68000,40,42,41,2,"Early phase, tracking to plan"
+P05,Fraud Detection ML Model,At Risk,2026-01-10,2026-07-20,70,150000,178000,33,29,19,8,Key data scientist overallocated across 3 projects
+P06,Internal HR Portal,On Track,2026-04-15,2026-08-01,80,90000,84000,22,23,24,0,"Ahead of schedule, no blockers"
+P07,Cloud Cost Optimization,At Risk,2026-03-20,2026-07-05,45,60000,71000,15,12,9,5,Velocity declining 3 sprints straight; budget 18% over
+P08,Vendor API Integration,Delayed,2026-02-01,2026-06-15,58,75000,79500,20,17,13,7,Third-party API delays causing repeated blockers
+P09,Sales Analytics Dashboard,On Track,2026-05-10,2026-08-30,35,50000,41000,18,19,20,1,"Small team, steady progress"
+P10,Legacy System Decommission,At Risk,2026-01-05,2026-07-31,88,200000,245000,25,20,14,4,Budget overrun 22.5%; final phase understaffed
